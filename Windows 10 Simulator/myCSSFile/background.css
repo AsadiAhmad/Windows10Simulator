@@ -1,0 +1,4 @@
+.root {
+    -fx-background-image:url('myPicture/window10Image.jpg');
+    -fx-background-size:cover;
+}

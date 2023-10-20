@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="863.0" prefWidth="1535.0" stylesheets="@../myCSSFile/background.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercise1.window10Controller">
+   <children>
+      <ButtonBar layoutY="823.0" prefHeight="40.0" prefWidth="1535.0" style="-fx-background-color: #473939;">
+        <buttons>
+          <Button minWidth="37.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="75.0" style="-fx-background-color: transparent;" translateX="-800.0">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" translateX="-152.0">
+                     <image>
+                        <Image url="@../myPicture/window10.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <TextField prefHeight="38.0" prefWidth="360.0" promptText="Type here to search" translateX="-1115.0">
+               <font>
+                  <Font size="17.0" />
+               </font></TextField>
+        </buttons>
+      </ButtonBar>
+      <Button alignment="BOTTOM_LEFT" layoutX="28.0" layoutY="31.0" mnemonicParsing="false" onAction="#onClickFireFox" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/firefox.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="28.0" layoutY="127.0" mnemonicParsing="false" onAction="#onClickChrome" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="68.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/chrom.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="28.0" layoutY="317.0" mnemonicParsing="false" onAction="#onClickIntellij" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="62.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/intellij.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="28.0" layoutY="701.0" mnemonicParsing="false" onAction="#onClickWord2019" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="88.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/word%202019.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="108.0" layoutY="30.0" mnemonicParsing="false" onAction="#onClickPhotoshop" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/photoshop.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="28.0" layoutY="223.0" mnemonicParsing="false" onAction="#onClickPycharm" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="59.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/pycharm.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="28.0" layoutY="605.0" mnemonicParsing="false" onAction="#onClickMediaPlayer" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="101.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/Video%20Player.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="109.0" layoutY="126.0" mnemonicParsing="false" onAction="#onClickAssassinsCreedUnity" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="58.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/Assassin's%20Creed%20Unity.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="28.0" layoutY="509.0" mnemonicParsing="false" onAction="#onClickPaint" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="66.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/paint.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button alignment="BOTTOM_CENTER" layoutX="28.0" layoutY="413.0" mnemonicParsing="false" onAction="#onCLickTelegram" prefHeight="64.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="66.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/telegram.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="43.0" layoutY="95.0" prefHeight="20.0" prefWidth="44.0" text="Fire Fox" />
+      <Label layoutX="42.0" layoutY="192.0" text="Chrome" />
+      <Label layoutX="41.0" layoutY="289.0" text="Pycharm" />
+      <Label layoutX="48.0" layoutY="381.0" text="intellij" />
+      <Label layoutX="40.0" layoutY="477.0" text="Telegram" />
+      <Label layoutX="93.0" layoutY="191.0" prefHeight="20.0" prefWidth="121.0" text="Assassin's Creed Unity" />
+      <Label layoutX="115.0" layoutY="96.0" text="Photoshop" />
+      <Label layoutX="34.0" layoutY="765.0" text="Word 2019" />
+      <Label layoutX="31.0" layoutY="669.0" text="Media player" />
+      <Label layoutX="51.0" layoutY="573.0" text="Paint" />
+   </children>
+</AnchorPane>
